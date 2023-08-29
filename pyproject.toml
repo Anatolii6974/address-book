@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "address-book"
+version = "0.1.0"
+description = ""
+authors = ["Anatolii6974 <anatolii.perfilov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "address_book"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs] 
+in-project = true
